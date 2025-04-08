@@ -1,0 +1,102 @@
+body {
+    font-family: "Bowlby One SC", sans-serif;
+    background-color: black;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(77, 77, 94);
+    width: 100%;
+    height: 50px;
+
+}
+.menu_button{
+    margin-top: 4.3px;
+    margin-left: 50px;
+    width: 50px;
+    height: 10px;
+    color: blueviolet;
+
+    
+}
+.menu_button_1{
+    margin-top: 4.3px;
+    margin-left: 50px;
+    width: 50px;
+    height: 10px;
+    color: blueviolet;
+    -webkit-text-stroke: 0.5px rgb(53, 17, 87);
+    
+}
+.info{
+    
+    margin-top: 10%;
+    margin-left: 45%;
+
+    width: 200px;
+    height: 300px;
+
+}
+.main_info{
+    display: flex;
+}
+.name{
+    display: flex;
+    font-size: 180%;
+    width: 70px;
+    height: 50px;
+    color: blueviolet;
+}
+.age{
+
+    font-size: 180%;
+    width: 110px;
+    height: 50px;
+    color: blueviolet;
+}
+.time_on_site{
+
+    width: 180px;
+    height: 50px;
+    font-size: 150%;
+
+    color: blueviolet;
+}
+.avatar{
+
+
+    width: 200px;
+    height: 200px;
+    color: blueviolet;
+
+}
+.cards{
+    margin-top: 15px;
+    color: blueviolet;
+    margin-left: 45%;
+    font-size: 150%;
+}
+.card_showcase{
+    display: flex;
+    font-size: 150%;
+
+    color: blueviolet;
+    margin-top: 50px;
+    margin-left: 28%;
+
+    width: 200px;
+    height: 200px;
+}
+.contain {
+    object-fit: contain;
+  }
+
+img {
+    margin-right: 15px;
+    width: 100%;
+    height: 100%
+}
+
+

@@ -3,22 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Хомяк 2.0</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="menu">
-        <div class="button">Войти</div>
-        <div class="button">Магазин</div>
-        <div class="button">Профиль</div>
+        <div class="menu_button">Войти</div>
+        <div class="menu_button">Магазин</div>
+        <div class="menu_button_1">Кликер</div>
+        <div class="menu_button">Профиль</div>
     </div>
     <div class="clicker_menu">
-        <div class="currency_number">12345 Монет</div>
-        <div class="clicker_button">
+        <div class="currency_number" id="score">Монеты: 0</div>
+        <div type="button" class="clicker_button" id="clicker_button">
             <img
             alt="click"
             class="contain"
             src="https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_67590c619c90d107c9b8dd11_67590c7d9c90d107c9b8e6ce/scale_1200" />
+            <script>
+                let score = 0;
+        
+                // Increment score on cookie click
+                const cookie = document.getElementById('clicker_button');
+                const scoreDisplay = document.getElementById('score');
+        
+                cookie.addEventListener('click', () => {
+                    score++;
+                    scoreDisplay.textContent = 'Монеты: ' + score ;
+                });
+            </script>
         </div>
     </div>
 </body>

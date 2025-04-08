@@ -16,7 +16,7 @@ body {
 
 }
 
-.button{
+.menu_button{
     margin-left: 50px;
     width: 50px;
     height: 10px;
@@ -24,22 +24,43 @@ body {
 
     
 }
+.menu_button_1{
+    margin-left: 50px;
+    width: 50px;
+    height: 10px;
+    color: blueviolet;
+    -webkit-text-stroke: 0.5px rgb(53, 17, 87);
+    
+}
 .clicker_menu {
-    margin-left: 50%;
-    border: 5px solid darkblue;
-    width: 200px;
-    height: 200px;
+    margin-top: 10%;
+    margin-left: 35%;
+
+    width: 500px;
+    height: 500px;
 
 }
 .clicker_button {
-    
-    width: 150px;
-    height: 100px;
+    margin-left: 15%;
+    width: 350px;
+    height: 300px;
     color: blueviolet;
 }
+
+.clicker_button:hover {
+    background-color: rgb(31, 36, 61);
+  }
+.clicker_button:active {
+    box-shadow:
+      inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+      inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+  }
+  
 .currency_number {
-    width: 150px;
-    height: 100px;
+    user-select: none;
+    margin-left: 30%;
+    width: 300px;
+    font-size: 200%;
     color: rgb(255, 255, 255);
 }
 img {
@@ -49,3 +70,4 @@ img {
 .contain {
     object-fit: contain;
   }
+
